@@ -463,7 +463,7 @@ with left:
     with col2:
         xg_rolling = st.number_input("xG (Rolling Avg)", 0.0, 5.0, 1.5, step=0.1)
     with col3:
-        gf_rolling = st.number_input("Goals For (Rolling Avg)", 0.0, 5.0, 1.3, step=0.1)
+        gf_rolling = st.number_input("Goals For (Rolling Avg)", 0.0, 5.0, 1.1, step=0.1)
     st.markdown('</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="section-label">Defensive Stats</div>', unsafe_allow_html=True)
