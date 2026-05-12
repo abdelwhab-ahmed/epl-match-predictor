@@ -1,4 +1,4 @@
 streamlit
 numpy
-pickle5
 plotly
+scikit-learn
